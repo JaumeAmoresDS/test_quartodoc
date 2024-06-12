@@ -1,0 +1,11 @@
+project:
+  title: "My Docs"
+
+output-dir: markdown_docs
+toc: true
+format: gfm
+render:
+  - "*.ipynb"
+  - "*.qmd"
+  - "!two/"
+
